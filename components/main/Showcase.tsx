@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import { motion } from "motion/react"
+import { motion } from 'motion/react'
 import Image from 'next/image'
 
 export default function Showcase() {
@@ -96,7 +96,7 @@ export default function Showcase() {
             <div className="container mx-auto space-y-14">
                 <div className="flex marquee-gradient">
                     <motion.div
-                        className='flex flex-shrink-0'
+                        className='flex shrink-0'
                         initial={{ x: 0 }}
                         animate={{ x: "-100%" }}
                         transition={{ duration: 45, repeat: Infinity}}
@@ -111,7 +111,7 @@ export default function Showcase() {
                         })}
                     </motion.div>
                     <motion.div
-                        className='flex flex-shrink-0'
+                        className='flex shrink-0'
                         initial={{ x: 0 }}
                         animate={{ x: "-100%" }}
                         transition={{ duration: 45, repeat: Infinity}}
@@ -129,7 +129,7 @@ export default function Showcase() {
 
                 <div className="flex marquee-gradient">
                     <motion.div
-                        className='flex flex-shrink-0'
+                        className='flex shrink-0'
                         initial={{ x: "-100%" }}
                         animate={{ x: 0 }}
                         transition={{ duration: 45, repeat: Infinity}}
@@ -144,7 +144,7 @@ export default function Showcase() {
                         })}
                     </motion.div>
                     <motion.div
-                        className='flex flex-shrink-0'
+                        className='flex shrink-0'
                         initial={{ x: "-100%" }}
                         animate={{ x: 0 }}
                         transition={{ duration: 45, repeat: Infinity}}
