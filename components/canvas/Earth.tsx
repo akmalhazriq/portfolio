@@ -7,7 +7,7 @@ interface EarthProps {
 }
 
 function Earth({ scale }: EarthProps) {
-    const earth = useGLTF('https://raw.githubusercontent.com/adrianhajdin/project_3D_developer_portfolio/refs/heads/main/public/planet/scene.gltf')
+    const earth = useGLTF('/planet/scene.gltf')
 
     return (
         <primitive
