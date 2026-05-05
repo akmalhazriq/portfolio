@@ -1,5 +1,6 @@
 import AboutMe from "@/components/main/AboutMe";
 import Hero from "@/components/main/Hero";
+import MyWorks from "@/components/main/MyWorks";
 import Showcase from "@/components/main/Showcase";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
           <Showcase />
         </div>
         <AboutMe />
+        <MyWorks />
       </div>
     </main>
   );
